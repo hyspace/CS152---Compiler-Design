@@ -1,0 +1,13 @@
+program mytest;
+
+  n : integer;
+  x : integer;
+
+beginprogram  ## main program
+  read n;
+  x := n;
+  while x > n / x beginloop
+    x := (x+n / x) / 2;
+  endloop;
+
+endprogram

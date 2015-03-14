@@ -1,0 +1,12 @@
+program mytest;
+
+  m : integer;
+
+beginprogram  ## main program
+
+  if 3+4+5 > 5*6*7 then
+    m := 3;
+  endif
+  ;
+
+endprogram

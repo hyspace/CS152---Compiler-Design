@@ -1,0 +1,10 @@
+program mytest;
+
+  n : integer;
+  x : array [100] of integer;
+
+beginprogram  ## main program
+
+  x[50] := 1;
+
+endprogram

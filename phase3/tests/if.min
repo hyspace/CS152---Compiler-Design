@@ -1,0 +1,16 @@
+program program;
+
+  n : integer;
+  m : integer;
+
+beginprogram  ## main program
+  m := 1;
+  n := 2;
+
+  if m > n then
+    m := 3;
+  else
+    m:= 4;
+  endif;
+
+endprogram

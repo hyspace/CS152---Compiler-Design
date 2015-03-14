@@ -1,0 +1,5 @@
+program x;
+a : integer;
+beginprogram
+a = 1 + 2 * 3;
+endprogram

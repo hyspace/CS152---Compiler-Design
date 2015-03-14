@@ -1,0 +1,11 @@
+program test;
+n : integer;
+r : array (of integer;
+n : array (of integer;
+beginprogram
+   read n;
+   n := z + 1;
+   n := n + r;
+   write n;
+   break;
+endprogram

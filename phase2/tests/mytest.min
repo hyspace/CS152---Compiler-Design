@@ -1,0 +1,14 @@
+## Requires 5 integer arguments, all of which are assumed to be < 100
+
+program mytest;
+
+  n : integer;
+
+beginprogram  ## main program
+
+  read n;
+  n := 1 + 2 * 3;
+
+##  write x,y,z;
+
+endprogram
