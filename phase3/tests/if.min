@@ -1,4 +1,4 @@
-program program;
+program iff;
 
   n : integer;
   m : integer;
@@ -7,7 +7,7 @@ beginprogram  ## main program
   m := 1;
   n := 2;
 
-  if m > n then
+  if m + 2 > n + 2 then
     m := 3;
   else
     m:= 4;

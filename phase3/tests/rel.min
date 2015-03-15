@@ -1,12 +1,12 @@
-program mytest;
+program rel;
 
   m : integer;
 
 beginprogram  ## main program
 
-  if 3+4+5 > 5*6*7 then
+  if true or false and false or true then
     m := 3;
-  endif
-  ;
+  endif;
+  write m;
 
 endprogram
